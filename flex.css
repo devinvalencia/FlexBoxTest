@@ -1,0 +1,13 @@
+.item-1 {
+  flex-shrink: 0; /* Wont move to next row if window shrunk*/
+}
+
+.item-2 {
+  flex-grow: 1; /* Will fill up remaining space of window*/
+  flex-basis: 0; /* Starts containers ratio size, sets minumum*/
+}
+
+.item-3 {
+  flex-grow:2; /* Will make this twice the size of 1*/
+  flex-basis:0;
+}
